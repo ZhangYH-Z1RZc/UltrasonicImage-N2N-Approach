@@ -1,0 +1,3 @@
+python .\classifyTest.py  -f "data/Classify_test/Measure" -rn "Anchor" -c "checkpoints/Measure_Anchor_SmoothL1_N2N/2022-12-31_checkpoint_Measure_Anchor_Dataset_epoch_10.pth"
+python .\classifyTest.py  -f "data/Classify_test/Vascular" -rn "Vascular" -c "checkpoints/Vascular_r_SmoothL1_N2N/2023-01-20_checkpoint_Vascular_Dataset_r_epoch_10.pth"
+python .\classifyTest.py  -f "data/Classify_test/Bodymarker" -rn "Bodymark_2" -c "checkpoints/BodyMark/N2N_Costume_Unet_N2N_no_Norm/2022-12-12_checkpoint_Bodymark_Dataset_epoch_10.pth"

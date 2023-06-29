@@ -1,0 +1,5 @@
+python train.py -e 10 -p "Bodymark_Dataset"
+#python train.py -e 10 -p "MeasureBox_Dataset"
+#python train.py -e 10 -p "ColorRect_Dataset"
+#python train.py -e 10 -p "Measure_Anchor_Dataset"
+# python train.py -e 10 -p "Vascular_Dataset_r"
